@@ -19,9 +19,9 @@ cc.Class({
     
     winAnim() {
         cc.tween(this.imgWin)
-            .to(2, { scale: 0 , opacity : 0})
-            .to(2, { scale: 2 , opacity : 150})
-            .to(2, { scale: 1 , opacity : 225})
+            .to(0, { scale: 0 , opacity : 0})
+            //.to(2, { scale: 1 , opacity : 150})
+            .to(2, { scale: 1.5 , opacity : 255})
             .start()
     },
     galaxyAnim() {
